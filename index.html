@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Борода — барбершоп в Казани</title>
+<meta name="description" content="Барбершоп «Борода» в Казани. Стрижки, бритьё опасной бритвой, моделирование бороды. Онлайн-запись.">
+<meta name="theme-color" content="#E9B949">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a href="#hero" class="logo">борода<span>.</span></a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#services">Услуги</a>
+      <a href="#team">Барберы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="#booking" class="btn btn-ink btn-sm">Записаться</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <p class="chip chip-yellow">Казань · стрижки и бритьё</p>
+        <h1 class="hero-title">
+          <span class="w">Стрижка,</span>
+          <span class="w">после&nbsp;которой</span>
+          <span class="w hl">хочется&nbsp;усы</span>
+        </h1>
+        <p class="hero-lead">Мужские стрижки и борода за час. Горячее полотенце, опасная бритва и честный прайс без «от».</p>
+        <div class="hero-cta">
+          <a href="#booking" class="btn btn-yellow">Выбрать время <span class="arr">→</span></a>
+          <a href="#services" class="btn btn-ghost">Цены</a>
+        </div>
+        <ul class="hero-facts">
+          <li><b>4,9</b><span>на Яндекс Картах</span></li>
+          <li><b>9</b><span>лет стрижём</span></li>
+          <li><b>1 500 ₽</b><span>мужская стрижка</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <svg class="badge" viewBox="0 0 200 200">
+          <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+          <circle cx="100" cy="100" r="98" class="badge-bg"/>
+          <text class="badge-txt"><textPath href="#circ" textLength="486" lengthAdjust="spacingAndGlyphs">горячее полотенце ✦ горячее полотенце ✦ </textPath></text>
+        </svg>
+        <div class="art-wrap" id="artWrap">
+          <svg class="art" viewBox="0 0 320 320" id="art">
+    <path class="o brow" d="M70 92 Q110 66 146 90" fill="none" stroke-width="14"/>
+    <path class="o brow" d="M174 90 Q210 66 250 92" fill="none" stroke-width="14"/>
+    <circle class="o" cx="110" cy="128" r="34" fill="#fff"/>
+    <circle class="o" cx="210" cy="128" r="34" fill="#fff"/>
+    <g data-track="14,10"><circle cx="110" cy="128" r="14" fill="var(--ink)"/><circle cx="210" cy="128" r="14" fill="var(--ink)"/></g>
+    <g class="must"><path class="o" fill="var(--a)" d="M160 196 C140 176 100 172 78 196 C64 210 44 212 34 200 C40 232 84 244 116 226 C138 214 152 208 160 212 C168 208 182 214 204 226 C236 244 280 232 286 200 C276 212 256 210 242 196 C220 172 180 176 160 196Z"/></g>
+    <path class="o" fill="var(--b)" d="M160 272 L118 250 L118 294 Z M160 272 L202 250 L202 294 Z"/>
+    <circle class="o" cx="160" cy="272" r="10" fill="var(--a)"/></svg>
+        </div>
+        <img class="float f1" src="assets/f1.svg" alt="">
+        <img class="float f2" src="assets/f2.svg" alt="">
+        <img class="float f3" src="assets/f3.svg" alt="">
+        <img class="float f4" src="assets/f1.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>стрижка машинкой</span><span>королевское бритьё</span><span>моделирование бороды</span><span>камуфляж седины</span><span>отец и сын</span><span>укладка</span><span>стрижка машинкой</span><span>королевское бритьё</span><span>моделирование бороды</span><span>камуфляж седины</span><span>отец и сын</span><span>укладка</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="reveal">Прайс<br>без «от»</h2>
+        <p class="reveal">Цена в списке окончательная. Мытьё головы, укладка и кофе уже входят.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Категории услуг">
+        <span class="tab-ink" id="tabInk"></span>
+        <button class="tab is-on" role="tab" aria-selected="true" data-tab="hair" id="tab-hair">Стрижки</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="beard" id="tab-beard">Борода</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="combo" id="tab-combo">Комплексы</button>
+      </div>
+
+      <div class="price" id="priceList" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="reveal">Барберы</h2>
+        <p class="reveal">Каждый стрижёт минимум пять лет. Наведите на карточку.</p>
+      </div>
+      <div class="team-grid">
+        <article class="master tilt" style="--c:var(--a)">
+          <div class="ava"><span>Т</span><img src="assets/f1.svg" alt=""></div>
+          <h3>Тимур</h3>
+          <p class="role">Барбер, основатель</p>
+          <ul class="tags"><li>фейды</li><li>опасная бритва</li><li>классика</li></ul>
+          <p class="exp"><b>9 лет</b> опыта · 6 000+ стрижек</p>
+        </article>
+        <article class="master tilt" style="--c:var(--d)">
+          <div class="ava"><span>И</span><img src="assets/f2.svg" alt=""></div>
+          <h3>Ильдар</h3>
+          <p class="role">Барбер</p>
+          <ul class="tags"><li>борода</li><li>кроп</li><li>текстура</li></ul>
+          <p class="exp"><b>6 лет</b> опыта · 3 800+ стрижек</p>
+        </article>
+        <article class="master tilt" style="--c:var(--e)">
+          <div class="ava"><span>М</span><img src="assets/f3.svg" alt=""></div>
+          <h3>Марат</h3>
+          <p class="role">Барбер</p>
+          <ul class="tags"><li>детские</li><li>машинка</li><li>камуфляж</li></ul>
+          <p class="exp"><b>5 лет</b> опыта · 2 900+ стрижек</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="reveal">Говорят<br>гости</h2>
+        <p class="reveal">Тяните ленту в сторону. Средняя оценка 4,9 из 5.</p>
+      </div>
+    </div>
+    <div class="rev-strip" id="revStrip" tabindex="0" aria-label="Отзывы, листаются по горизонтали">
+      <figure class="rev" style="--c:var(--b);--rot:-3deg"><div class="stars">★★★★★</div><blockquote>Тимур за десять минут понял, что мне нужно, лучше, чем я сам. Хожу третий год.</blockquote><figcaption>Руслан · стрижка</figcaption></figure>
+      <figure class="rev" style="--c:var(--d);--rot:2deg"><blockquote>Королевское бритьё — это отдельный вид отдыха. Горячее полотенце лечит понедельник.</blockquote><div class="stars">★★★★★</div><figcaption>Андрей · бритьё</figcaption></figure>
+      <figure class="rev" style="--c:var(--w);--rot:-1deg"><div class="stars">★★★★★</div><blockquote>Привёл сына, стригли одновременно. Он теперь сам просится к Марату.</blockquote><figcaption>Денис · отец и сын</figcaption></figure>
+      <figure class="rev" style="--c:var(--a);--rot:3deg"><blockquote>Борода наконец-то выглядит как задумано, а не как получилось.</blockquote><div class="stars">★★★★★</div><figcaption>Айдар · борода</figcaption></figure>
+      <figure class="rev" style="--c:var(--e);--rot:-2deg"><div class="stars">★★★★☆</div><blockquote>Всё отлично, но в пятницу вечером мест почти нет, записывайтесь заранее.</blockquote><figcaption>Олег · стрижка + борода</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" id="booking">
+    <div class="wrap booking-in">
+      <div class="booking-side">
+        <h2 class="reveal">Запись<br>за минуту</h2>
+        <p>Выберите услугу, барбера и время. Администратор напишет в течение 15 минут, чтобы подтвердить.</p>
+        <ol class="steps-mini" id="stepsMini" aria-label="Шаги записи">
+          <li class="is-on">Услуга</li><li>Барбер</li><li>Время</li><li>Контакты</li>
+        </ol>
+      </div>
+
+      <form class="book" id="bookForm" novalidate>
+        <fieldset class="step is-on" data-step="0">
+          <legend>Что делаем?</legend>
+          <div class="opts" id="optServices"></div>
+        </fieldset>
+
+        <fieldset class="step" data-step="1">
+          <legend>К кому?</legend>
+          <div class="opts" id="optMasters">
+            <label class="opt"><input type="radio" name="master" id="m-any" value="Любой свободный барбер" checked><span>Любой свободный</span></label>
+            <label class="opt"><input type="radio" name="master" id="m-0" value="Тимур"><span>Тимур</span></label>
+            <label class="opt"><input type="radio" name="master" id="m-1" value="Ильдар"><span>Ильдар</span></label>
+            <label class="opt"><input type="radio" name="master" id="m-2" value="Марат"><span>Марат</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" data-step="2">
+          <legend>Когда удобно?</legend>
+          <div class="days" id="days"></div>
+          <div class="slots" id="slots"></div>
+        </fieldset>
+
+        <fieldset class="step" data-step="3">
+          <legend>Как с вами связаться?</legend>
+          <label class="field"><span>Имя</span><input id="name" name="name" autocomplete="given-name" placeholder="Артём" required></label>
+          <label class="field"><span>Телефон</span><input id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required></label>
+          <p class="err" id="err" hidden></p>
+          <div class="summary" id="summary"></div>
+        </fieldset>
+
+        <div class="done" id="done" hidden>
+          <img src="assets/f3.svg" alt="" class="done-ico">
+          <h3>Заявка отправлена</h3>
+          <p id="doneTxt"></p>
+          <button type="button" class="btn btn-ghost-w" id="again">Записаться ещё</button>
+        </div>
+
+        <div class="book-nav" id="bookNav">
+          <button type="button" class="btn btn-ghost-w" id="back" disabled>Назад</button>
+          <button type="button" class="btn btn-yellow" id="next">Дальше <span class="arr">→</span></button>
+        </div>
+      </form>
+    </div>
+    <canvas id="confetti" aria-hidden="true"></canvas>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="wrap faq-in">
+      <h2 class="reveal">Частые<br>вопросы</h2>
+      <div class="faq-list">
+        <details><summary>Можно прийти без записи?</summary><p>Можно, если есть свободное кресло. Но вечером и в выходные лучше записаться.</p></details>
+        <details><summary>Стрижёте длинные волосы?</summary><p>Да, до плеч. Длиннее — по договорённости с мастером.</p></details>
+        <details><summary>Сколько ждать, если опоздал?</summary><p>До 10 минут ждём спокойно. Позже придётся сократить услугу или перенести.</p></details>
+        <details><summary>Есть подарочные сертификаты?</summary><p>Есть, на любую сумму или услугу. Оформим на месте или пришлём электронный.</p></details>
+        <details><summary>Можно с собакой?</summary><p>Если собака спокойная, то конечно. Воду для неё нальём.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" id="contacts">
+  <div class="wrap foot-in">
+    <div class="foot-col">
+      <p class="chip chip-pink">Ждём каждый день</p>
+      <p class="addr">Казань,<br>ул. Баумана, 42</p>
+      <p class="muted">10:00–21:00 без выходных · вход с улицы</p>
+    </div>
+    <div class="foot-col">
+      <p class="muted">Телефон</p>
+      <p class="phone" id="phoneTxt">+7 843 200-31-08</p>
+      <button class="btn btn-yellow btn-sm" id="copyPhone">Скопировать номер</button>
+      <p class="muted mail-label">Почта для анонимных писем</p>
+      <a class="mail" href="mailto:hello@boroda.example">hello@boroda.example</a>
+    </div>
+    <p class="mega" aria-hidden="true">борода.</p>
+    <div class="foot-bottom">
+      <p class="muted small">© 2026 Барбершоп «Борода». Все права защищены.</p>
+      <p class="muted small">Тексты, иллюстрации и дизайн сайта охраняются авторским правом. Копирование без согласия барбершопа запрещено.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/booking.js"></script>
+</body>
+</html>
