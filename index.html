@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Борода — барбершоп в Казани</title>
 <meta name="description" content="Барбершоп «Борода» в Казани. Стрижки, бритьё опасной бритвой, моделирование бороды. Онлайн-запись.">
-<meta name="theme-color" content="#E9B949">
+<meta name="theme-color" content="#C9A24B">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,50 +30,21 @@
 
 <main>
   <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="wrap hero-in">
-      <div class="hero-text">
-        <p class="chip chip-yellow">Казань · стрижки и бритьё</p>
-        <h1 class="hero-title">
-          <span class="w">Стрижка,</span>
-          <span class="w">после&nbsp;которой</span>
-          <span class="w hl">хочется&nbsp;усы</span>
-        </h1>
-        <p class="hero-lead">Мужские стрижки и борода за час. Горячее полотенце, опасная бритва и честный прайс без «от».</p>
-        <div class="hero-cta">
-          <a href="#booking" class="btn btn-yellow">Выбрать время <span class="arr">→</span></a>
-          <a href="#services" class="btn btn-ghost">Цены</a>
-        </div>
-        <ul class="hero-facts">
-          <li><b>4,9</b><span>на Яндекс Картах</span></li>
-          <li><b>9</b><span>лет стрижём</span></li>
-          <li><b>1 500 ₽</b><span>мужская стрижка</span></li>
-        </ul>
-      </div>
-
-      <div class="hero-art" aria-hidden="true">
-        <svg class="badge" viewBox="0 0 200 200">
+  <section class="hero hero-full" id="hero">
+    <div class="hero-bg"><img class="ph" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=2000&q=75" alt="Зал барбершопа: кожаные кресла, кирпичная стена и лампы" fetchpriority="high"></div>
+    <svg class="badge" viewBox="0 0 200 200" aria-hidden="true">
           <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
           <circle cx="100" cy="100" r="98" class="badge-bg"/>
           <text class="badge-txt"><textPath href="#circ" textLength="486" lengthAdjust="spacingAndGlyphs">горячее полотенце ✦ горячее полотенце ✦ </textPath></text>
         </svg>
-        <div class="art-wrap" id="artWrap">
-          <svg class="art" viewBox="0 0 320 320" id="art">
-    <path class="o brow" d="M70 92 Q110 66 146 90" fill="none" stroke-width="14"/>
-    <path class="o brow" d="M174 90 Q210 66 250 92" fill="none" stroke-width="14"/>
-    <circle class="o" cx="110" cy="128" r="34" fill="#fff"/>
-    <circle class="o" cx="210" cy="128" r="34" fill="#fff"/>
-    <g data-track="14,10"><circle cx="110" cy="128" r="14" fill="var(--ink)"/><circle cx="210" cy="128" r="14" fill="var(--ink)"/></g>
-    <g class="must"><path class="o" fill="var(--a)" d="M160 196 C140 176 100 172 78 196 C64 210 44 212 34 200 C40 232 84 244 116 226 C138 214 152 208 160 212 C168 208 182 214 204 226 C236 244 280 232 286 200 C276 212 256 210 242 196 C220 172 180 176 160 196Z"/></g>
-    <path class="o" fill="var(--b)" d="M160 272 L118 250 L118 294 Z M160 272 L202 250 L202 294 Z"/>
-    <circle class="o" cx="160" cy="272" r="10" fill="var(--a)"/></svg>
-        </div>
-        <img class="float f1" src="assets/f1.svg" alt="">
-        <img class="float f2" src="assets/f2.svg" alt="">
-        <img class="float f3" src="assets/f3.svg" alt="">
-        <img class="float f4" src="assets/f1.svg" alt="">
-      </div>
-    </div>
+    <div class="wrap hero-in"><div class="hero-text"><p class="chip chip-yellow">Казань · стрижки и бритьё</p><h1 class="hero-title">
+          <span class="w">Стрижка,</span>
+          <span class="w">после&nbsp;которой</span>
+          <span class="w hl">хочется&nbsp;усы</span>
+        </h1><p class="hero-lead">Мужские стрижки и борода за час. Горячее полотенце, опасная бритва и честный прайс без «от».</p><div class="hero-cta">
+          <a href="#booking" class="btn btn-yellow">Выбрать время <span class="arr">→</span></a>
+          <a href="#services" class="btn btn-ghost">Цены</a>
+        </div><ul class="hero-facts"><li><b>4,9</b><span>на Яндекс Картах</span></li><li><b>9</b><span>лет стрижём</span></li><li><b>1 500 ₽</b><span>мужская стрижка</span></li></ul></div></div>
   </section>
 
   <!-- MARQUEE -->
@@ -111,26 +82,42 @@
       </div>
       <div class="team-grid">
         <article class="master tilt" style="--c:var(--a)">
-          <div class="ava"><span>Т</span><img src="assets/f1.svg" alt=""></div>
+          <div class="ava" data-sign="Тимур"><span class="face"><img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=75" alt="Тимур, барбер, основатель" loading="lazy"></span></div>
           <h3>Тимур</h3>
           <p class="role">Барбер, основатель</p>
           <ul class="tags"><li>фейды</li><li>опасная бритва</li><li>классика</li></ul>
           <p class="exp"><b>9 лет</b> опыта · 6 000+ стрижек</p>
         </article>
         <article class="master tilt" style="--c:var(--d)">
-          <div class="ava"><span>И</span><img src="assets/f2.svg" alt=""></div>
+          <div class="ava" data-sign="Ильдар"><span class="face"><img src="https://images.unsplash.com/photo-1500041336960-e8ee2ef5fb94?auto=format&fit=crop&w=400&q=75" alt="Ильдар, барбер" loading="lazy"></span></div>
           <h3>Ильдар</h3>
           <p class="role">Барбер</p>
           <ul class="tags"><li>борода</li><li>кроп</li><li>текстура</li></ul>
           <p class="exp"><b>6 лет</b> опыта · 3 800+ стрижек</p>
         </article>
         <article class="master tilt" style="--c:var(--e)">
-          <div class="ava"><span>М</span><img src="assets/f3.svg" alt=""></div>
+          <div class="ava" data-sign="Марат"><span class="face"><img src="https://images.unsplash.com/photo-1558730234-d8b2281b0d00?auto=format&fit=crop&w=400&q=75" alt="Марат, барбер" loading="lazy"></span></div>
           <h3>Марат</h3>
           <p class="role">Барбер</p>
           <ul class="tags"><li>детские</li><li>машинка</li><li>камуфляж</li></ul>
           <p class="exp"><b>5 лет</b> опыта · 2 900+ стрижек</p>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="reveal">Внутри</h2>
+        <p class="reveal">Кирпич, кожа, горячие полотенца и никакой спешки.</p>
+      </div>
+      <div class="gal">
+        <figure><img class="ph" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=75" alt="Горячее полотенце" loading="lazy"><figcaption>Горячее полотенце</figcaption></figure>
+        <figure><img class="ph" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=75" alt="Опасная бритва" loading="lazy"><figcaption>Опасная бритва</figcaption></figure>
+        <figure><img class="ph" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=75" alt="Инструмент мастера" loading="lazy"><figcaption>Инструмент мастера</figcaption></figure>
+        <figure><img class="ph" src="https://images.unsplash.com/photo-1536520002442-39764a41e987?auto=format&fit=crop&w=800&q=75" alt="Зал на четыре кресла" loading="lazy"><figcaption>Зал на четыре кресла</figcaption></figure>
       </div>
     </div>
   </section>
@@ -239,6 +226,7 @@
       <a class="mail" href="mailto:hello@boroda.example">hello@boroda.example</a>
     </div>
     <p class="mega" aria-hidden="true">борода.</p>
+    <p class="credits">Фото: <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a>. Компания вымышлена, сайт — концепт.</p>
     <div class="foot-bottom">
       <p class="muted small">© 2026 Барбершоп «Борода». Все права защищены.</p>
       <p class="muted small">Тексты, иллюстрации и дизайн сайта охраняются авторским правом. Копирование без согласия барбершопа запрещено.</p>
